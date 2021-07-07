@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: $text-mobile-font;
+  line-height: $text-mobile-line;
+  color: $base-dark;
+  font-weight: 300;
+  background-color: $base-white;
+  width: 100%;
+  height: 100%;
+  min-width: $width-mobile;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $text-tablet-font;
+    line-height: $text-tablet-line;
+    min-width: $width-mobile-album;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $width-tablet) {
+    min-width: $width-tablet;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $text-desktop-font;
+    line-height: $text-desktop-line;
+    min-width: $width-tablet-album;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $width-desktop) {
+    min-width: $width-desktop;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.hr {
+  width: 160px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: $main-bg-color;
+}
+
+.debug-illumination--red {
+  outline: 1px solid red !important;
+  background-color: rgba(255,0,0, .3) !important;
+}
+
+.debug-illumination--blue {
+  outline: 1px solid blue !important;
+  background-color: rgba(0,17,255, .3) !important;
+}
+
+.debug-illumination--green {
+  outline: 1px solid green !important;
+  background-color: rgba(0,128,0, .3) !important;
+}
