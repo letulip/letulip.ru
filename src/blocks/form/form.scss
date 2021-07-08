@@ -24,7 +24,7 @@
 .form__input {
   border: 1px solid $base-red-light;
   border-radius: 16px;
-  width: 260px;
+  width: 240px;
   outline: none;
   min-height: 48px;
   padding-inline-end: 15px;
@@ -32,6 +32,10 @@
   padding-block-end: 5px;
   padding-block-start: 5px;
   margin-block-end: 12px;
+
+  @media (min-width: $width-tablet) {
+    width: 260px;
+  }
 }
 
 .form__input:focus {

@@ -1,0 +1,34 @@
+.text {
+  text-align: center;
+  font-size: $text-mobile-font;
+  line-height: $text-mobile-line;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $text-tablet-font;
+    line-height: $text-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $text-desktop-font;
+    line-height: $text-desktop-line;
+  }
+}
+
+.text--sm {
+  font-size: $sm-text-mobile-font;
+  line-height: $sm-text-mobile-line;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $sm-text-tablet-font;
+    line-height: $sm-text-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $sm-text-desktop-font;
+    line-height: $sm-text-desktop-line;
+  }
+}
+
+.text--left {
+  text-align: left;
+}

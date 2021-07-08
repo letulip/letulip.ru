@@ -1,19 +1,37 @@
 .content--home {
   width: 100%;
   max-width: $width-desktop-container;
-  min-height: 468px;
+  min-height: 660px;
   padding-inline-end: $gap-mobile;
   padding-inline-start: $gap-mobile;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-image: url('../img/tulip-color-double-opacity.svg');
-  background-position: center;
+  background-position: 250px 100%;
   background-repeat: no-repeat;
-  background-size: contain;
-  
+  background-size: 150px;
+  margin-block-end: 60px;
+  margin-block-start: 30px;
+
+  @media (min-width: $width-mobile-album) {
+    flex-direction: row;
+    background-position: center;
+    min-height: 468px;
+    background-size: contain;
+    margin-block-start: 0;
+  }
 }
 
 .content__form {
-  margin-inline-end: 50px;
+  margin-inline-end: auto;
+
+  @media (min-width: $width-mobile-album) {
+    margin-inline-end: 0;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    margin-inline-end: 50px;
+  }
 }

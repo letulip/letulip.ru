@@ -1,0 +1,44 @@
+.button {
+  font-size: $sm-text-desktop-font;
+  font-weight: 300;
+  border-radius: 16px;
+  width: 200px;
+  outline: none;
+  min-height: 48px;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+  padding-block-end: 5px;
+  padding-block-start: 5px;
+  margin-block-start: 12px;
+  cursor: pointer;
+}
+
+.button--common {
+  border: 1px solid $base-red;
+  background-color: $base-white;
+  color: $base-red;
+}
+
+.button--common:hover,
+.button--common:focus {
+  border: 1px solid $base-red-semi;
+}
+
+.button--common:active {
+  border: 1px solid $base-red-light;
+}
+
+.button--action {
+  border: 1px solid $base-red;
+  background-color: $base-red;
+  color: $base-white;
+}
+
+.button--action:hover,
+.button--action:focus {
+  border: 1px solid $base-red-semi;
+}
+
+.button--action:active {
+  border: 1px solid $base-red-light;
+}
