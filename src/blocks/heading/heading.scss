@@ -1,0 +1,207 @@
+.heading {
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  padding-block-end: 10px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  @media (min-width: $width-tablet-album) {
+    max-width: 740px;
+    padding-block-end: 20px;
+  }
+}
+
+.heading--h1 {
+  font-size: $h1-mobile-font;
+  line-height: $h1-mobile-line;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h1-tablet-font;
+    line-height: $h1-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h1-desktop-font;
+    line-height: $h1-desktop-line;
+  }
+}
+
+.heading--h1-home {
+  font-size: 48px;
+  line-height: 60px;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: 72px;
+    line-height: 90px;
+  }
+}
+
+.heading--h2 {
+  font-size: $h2-mobile-font;
+  line-height: $h2-mobile-line;
+  font-weight: 400;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h2-tablet-font;
+    line-height: $h2-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h2-desktop-font;
+    line-height: $h2-desktop-line;
+  }
+}
+
+.heading--h3 {
+  font-size: $h3-mobile-font;
+  line-height: $h3-mobile-line;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h3-tablet-font;
+    line-height: $h3-tablet-line;
+    padding-block-end: 10px;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h3-desktop-font;
+    line-height: $h3-desktop-line;
+    padding-block-end: 10px;
+  }
+}
+
+.heading--h4 {
+  font-size: $h4-mobile-font;
+  line-height: $h4-mobile-line;
+  font-weight: 400;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h4-tablet-font;
+    line-height: $h4-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h4-desktop-font;
+    line-height: $h4-desktop-line;
+  }
+}
+
+.heading--h5 {
+  font-size: $h5-mobile-font;
+  line-height: $h5-mobile-line;
+  font-weight: 400;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h5-tablet-font;
+    line-height: $h5-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h5-desktop-font;
+    line-height: $h5-desktop-line;
+  }
+}
+
+.heading--h6 {
+  font-size: $h6-mobile-font;
+  line-height: $h6-mobile-line;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media (min-width: $width-mobile-album) {
+    font-size: $h6-tablet-font;
+    line-height: $h6-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $h6-desktop-font;
+    line-height: $h6-desktop-line;
+  }
+}
+
+.heading--paddingBottom-0 {
+  padding-block-end: 0px;
+
+  @media (min-width: $width-tablet) {
+    padding-block-end: 0px;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-end: 0px;
+  }
+}
+
+.heading--paddingBottom-5 {
+  padding-block-end: 5px;
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-end: 5px;
+  }
+}
+
+.heading--paddingBottom-20 {
+  padding-block-end: 20px;
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-end: 20px;
+  }
+}
+
+.heading--paddingTop-30 {
+  padding-block-start: 30px;
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-start: 30px;
+  }
+}
+
+.heading--paddingTop-50 {
+  padding-block-start: 30px;
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-start: 50px;
+  }
+}
+
+.heading--paddingBottom-30 {
+  padding-block-end: 30px;
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-end: 30px;
+  }
+}
+
+.heading--paddingBottom-50 {
+
+  @media (min-width: $width-tablet) {
+    padding-block-end: 44px;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    padding-block-end: 50px;
+  }
+}
+
+.heading--bold {
+  font-weight: 700;
+}
+
+.heading--center {
+  margin: 0 auto;
+}
+
+.heading--left {
+  text-align: left;
+}
+
+.heading--left-mobile {
+  
+  @media (min-width: $width-tablet) {
+    text-align: left;
+  }
+}

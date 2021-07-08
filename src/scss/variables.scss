@@ -58,29 +58,6 @@ $h5-desktop-line: 30px;
 $h6-desktop-font: 16px;
 $h6-desktop-line: 26px;
 
-// OLD COLORS
-$main-bg-color: #0055cc;
-$main-bg-color-s: #0077ee;
-$main-bg-color-xs: #77bbff;
-$main-color: #ffffff;
-$main-color-xs: #eeeeee;
-$main-color-xxs: #bbddff;
-$main-color-s: #cccccc;
-$main-color-m: #b2b2b2;
-$main-color-l: #808080;
-$main-color-dark: #333333;
-$main-text-color: #333333;
-$dark-bg-color: #556677;
-$main-action-color: #ffd52e;
-$main-action-hover-color: #ffe32e;
-$main-action-visited-color: #003388;
-$main-action-text-color: #665533;
-$error-light: #ff9999;
-$error-normal: #ff6666;
-$demo-color: #000F2C;
-// $demo-color: #0055cc;
-
-// NEW COLORS
 $base-blue: #2e75e6;
 $base-blue-alpha: #2e75e680;
 $base-blue-alpha-33: #2e75e633;
@@ -94,45 +71,14 @@ $base-sky-blue-80: #eaf3fe80;
 $base-wrong: #FFEEED;
 $base-wrong-dark-33: #CC433D33;
 
-$info-blue: #030062;
-$info-dark-blue: #040062;
-$info-darker-blue: #020036;
-
 $base-dark: #333333;
 $base-white: #ffffff;
 $base-white-alpha: #ffffffcc;
 $base-white-alpha-33: #ffffff33;
 $base-white-alpha-6: #ffffff60;
 
-$base-action-color: #ffd52e;
-$base-action-hover-color: #ffe32e;
-$base-action-brown: #665533;
-$base-action-brown-alpha-3: #66553330;
-
-$base-gradient-light: #80d5ff;
-$base-gradient-dark: #2e75e6;
-
 $cookies-bg: #8298B7;
 $cookies-shadow: 0px 10px 10px #2E75E633;
-
-$news-bg: #1d3e73;
-$news-color: #80C6FF;
-$news-shadow: 0px 10px 10px #2E75E633;
-
-$alt-gradient-start-alpha: 0;
-$alt-gradient-middle-alpha: 40;
-$alt-gradient-end-alpha: 50;
-
-$alt-gradient: transparent
-  linear-gradient(
-    180deg,
-    #1f62cc 0%,
-    #1f62cc 15%,
-    #1f62cc66 45%,
-    #1f62cc0d 75%,
-    #1f62cc00 100%
-  )
-  0% 0% no-repeat padding-box;
 
 $additional-red: #ff564e;
 $additional-green: #38c976;

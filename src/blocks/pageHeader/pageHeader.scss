@@ -1,0 +1,12 @@
+.pageHeader {
+  width: 100%;
+  max-width: $width-desktop-container;
+  min-height: 80px;
+  padding-inline-end: $gap-mobile;
+  padding-inline-start: $gap-mobile;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}

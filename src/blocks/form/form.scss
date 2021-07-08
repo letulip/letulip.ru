@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  font-size: $sm-text-desktop-font;
+  line-height: $sm-text-desktop-line;
+}
+
+.form__input {
+
+}

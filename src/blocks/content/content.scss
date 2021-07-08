@@ -1,0 +1,19 @@
+.content--home {
+  width: 100%;
+  max-width: $width-desktop-container;
+  min-height: 468px;
+  padding-inline-end: $gap-mobile;
+  padding-inline-start: $gap-mobile;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../img/tulip-color-double-opacity.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.content__form {
+  margin-inline-end: 50px;
+}
