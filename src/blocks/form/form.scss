@@ -7,10 +7,70 @@
 .form__label {
   display: flex;
   flex-direction: column;
-  font-size: $sm-text-desktop-font;
-  line-height: $sm-text-desktop-line;
+  font-size: $sm-text-mobile-font;
+  line-height: $sm-text-mobile-line;
+  
+  @media (min-width: $width-mobile-album) {
+    font-size: $sm-text-tablet-font;
+    line-height: $sm-text-tablet-line;
+  }
+
+  @media (min-width: $width-tablet-album) {
+    font-size: $sm-text-desktop-font;
+    line-height: $sm-text-desktop-line;
+  }
 }
 
 .form__input {
+  border: 1px solid $base-red-light;
+  border-radius: 16px;
+  width: 260px;
+  outline: none;
+  min-height: 48px;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+  padding-block-end: 5px;
+  padding-block-start: 5px;
+  margin-block-end: 12px;
+}
 
+.form__input:focus {
+  border: 1px solid $base-red-semi;
+  outline: none;
+}
+
+.form__input:active {
+  border: 1px solid $base-red;
+  outline: none;
+}
+
+.form__submit {
+  border: 1px solid $base-red;
+  background-color: $base-red;
+  font-size: $sm-text-desktop-font;
+  font-weight: 300;
+  color: $base-white;
+  border-radius: 16px;
+  width: 200px;
+  outline: none;
+  min-height: 48px;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+  padding-block-end: 5px;
+  padding-block-start: 5px;
+  margin-block-start: 12px;
+  cursor: pointer;
+}
+
+.form__submit:hover,
+.form__submit:focus {
+  border: 1px solid $base-red-semi;
+  background-color: $base-red-semi;
+  outline: none;
+}
+
+.form__submit:active {
+  border: 1px solid $base-red-light;
+  background-color: $base-red-light;
+  outline: none;
 }
