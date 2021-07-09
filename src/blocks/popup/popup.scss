@@ -1,0 +1,24 @@
+.popup {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  background-color: $base-white;
+  border-radius: 20px;
+  width: $width-mobile-container;
+  left: calc(50% - 145px);
+  top: calc(50% - 180px);
+  box-shadow: 0 5px 20px $base-red-shadow;
+  padding: $gap-mobile;
+
+  @media (min-width: $width-mobile-album) {
+    width: $width-mobile-album-container;
+    left: calc(50% - 273px);
+    top: calc(50% - 150px);
+    padding: $gap-tablet;
+  }
+}
+
+.popup--visible {
+  display: flex;
+}

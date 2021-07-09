@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Letulip - Добро пожаловать!</title>
+  <meta name="description" content="Меня зовут Игорь. Я создаю легкие, быстрые, удобные, кастомные сайты под любые ваши задачи и нужды. Ничего лишнего, максимально просто и быстро, я экономлю ваши деньги и вреия.">
+  <meta property="og:url" content="{{ site_url }}">
+  <meta property="og:title" content="Letulip - Добро пожаловать!">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Letulip - быстрые, легкие, удобные сайты">
+  <meta property="og:image" content="{{ site_url }}img/logo.svg">
+  <meta property="og:description" content="Меня зовут Игорь. Я создаю легкие, быстрые, удобные, кастомные сайты под любые ваши задачи и нужды. Ничего лишнего, максимально просто и быстро, я экономлю ваши деньги и вреия.">
+</head>
+<body>
+  <header class="pageHeader">
+    <div class="logo">
+      <img src="img/logo.svg" alt="лого letulip" width="103" height="50" class="logo__img">
+    </div>
+    <div class="headerContacts">
+      <a href="https://t.me/letulip" class="headerContacts__tg">
+        <img src="img/icons/telegram.svg" alt="Ссылка на Telegram letulip" width="24" height="24" class="headerContacts__img headerContacts__img--tg">
+      </a>
+    </div>
+  </header>
+  <main class="pageMain">
+    <div class="content content--home">
+      <h1 class="heading heading--h1 heading--left heading--h1-home">
+        Легкие<br>Быстрые<br>Удобные<br>Сайты
+      </h1>
+      <div class="content__form">
+        <h2 class="heading heading--h2 heading--paddingBottom-5">
+          Интересует?
+        </h2>
+        <form action="" class="form form--index">
+          <label for="" class="form__label">
+            имя
+            <input type="text" class="form__input">
+          </label>
+          <label for="" class="form__label">
+            телефон
+            <input type="text" class="form__input">
+          </label>
+          <label for="" class="form__label">
+            email
+            <input type="text" class="form__input">
+          </label>
+          <input type="submit" class="button button--action form__submit" value="Консультация">
+          <!-- {% module xsrf_form_html() %} -->
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <div class="popup">
+    <h3 class="heading heading--h3">Благодарю за интерес!</h3>
+    <p class="text">Я свяжусь с вами при первой возможности,<br>обычно это происходит в течение рабочего дня</p>
+    <button class="button button--common popup__close">Закрыть</button>
+  </div>
+
+  <script src="js/form/form.js"></script>
+</body>
+</html>

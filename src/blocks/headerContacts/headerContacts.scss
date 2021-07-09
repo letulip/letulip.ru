@@ -1,0 +1,17 @@
+.headerContacts__tg {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  width: 40px;
+  height: 40px;
+
+  @media (min-width: $width-tablet-album) {
+    margin-inline-end: 30px;
+  }
+}
+
+.headerContacts__img {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
