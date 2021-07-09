@@ -1,5 +1,6 @@
 const POPUP_VISIBLE = `popup--visible`;
 
+const params = (new URL(document.location)).searchParams;
 const formSubmit = document.querySelector(`.form__submit`);
 const popup = document.querySelector(`.popup`);
 
@@ -8,8 +9,7 @@ const popupCloseOnClick = (evt) => {
   popup.classList.toggle(POPUP_VISIBLE);
 };
 
-const formSubmitOnClick = (evt) => {
-  evt.preventDefault();
+const formSubmitOnClick = () => {
   popup.classList.toggle(POPUP_VISIBLE);
 };
 
@@ -18,4 +18,6 @@ if (popup) {
   popupClose.addEventListener(`click`, popupCloseOnClick);
 }
 
-formSubmit.addEventListener(`click`, formSubmitOnClick);
+if (params.get(`submited`)) {
+  formSubmitOnClick();
+}
